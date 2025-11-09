@@ -1,24 +1,3 @@
-"""
-Naive Bayes Classifier Implementation from Scratch
-
-This implementation includes three variants of Naive Bayes:
-1. Gaussian Naive Bayes - for continuous features
-2. Multinomial Naive Bayes - for discrete count features
-3. Bernoulli Naive Bayes - for binary features
-
-Mathematical Foundation:
------------------------
-Bayes' Theorem:
-    P(y|X) = P(X|y) * P(y) / P(X)
-
-Naive Bayes Assumption:
-    P(X|y) = P(x1|y) * P(x2|y) * ... * P(xn|y)
-    (features are conditionally independent given the class)
-
-Classification:
-    y_pred = argmax_y P(y|X) = argmax_y P(X|y) * P(y)
-"""
-
 import numpy as np
 from collections import Counter
 
